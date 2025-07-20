@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #181f2a;
+  color: #f5f6fa;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+header {
+  background-color: #232b3a;
+  padding: 30px 0 10px 0;
+}
+
+#myname h1 {
+  color: #ffd700;
+}
+
+#myname p {
+  color: #f5f6fa;
+}
+
+.navbar {
+  background-color: #232b3a;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar a {
+  color: #f5f6fa;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.navbar a:hover {
+  color: #ffd700;
+}
+
+#myname {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: rgb(211, 162, 99);
+}
+
+a {
+  text-decoration: none;
+}
+
+#name {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: rgb(173, 106, 25);
+}
+
+#name {
+  border-radius: 20px;
+  border: 1px solid violet;
+}
+
+#email {
+  border-radius: 20px;
+  border: 1px solid rgb(28, 169, 0);
+}
+
+#message {
+  border-radius: 10px;
+  border: 2px solid greenyellow;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+video {
+  height: 260px;
+  width: 260px;
+  border-radius: 2px solid grey;
+}
